@@ -52,10 +52,7 @@ const CardCity = ({
   drag(drop(ref));
   return (
     <li ref={ref} className={listItem} style={{ opacity }}>
-      <NavLink
-        to={`/details/${data.name}`}
-        className={linkItem}
-      >
+      <NavLink to={`/details/${data.name}`} className={linkItem}>
         <h2 className={titleItem}>{data.name}</h2>
         <div className={dateItem}>
           <span>{data.month}</span> <span>{data.date}</span>,
@@ -69,12 +66,12 @@ const CardCity = ({
           type="button"
           className={itemBtnUpdate}
           onClick={() => handleUpdate(data.name)}
-        ></button>
+        />
         <button
           type="button"
           className={itemBtnDelete}
           onClick={() => handleDeleteCity(data.name)}
-        ></button>
+        />
       </div>
     </li>
   );

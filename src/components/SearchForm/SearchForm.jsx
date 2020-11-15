@@ -28,7 +28,7 @@ const SearchForm = ({ fetchCurrentWeather }) => {
         onChange={handleChenge}
         className={searchInput}
       />
-      <button type="submit" className={searchBtn}></button>
+      <button type="submit" className={searchBtn} />
     </form>
   );
 };
