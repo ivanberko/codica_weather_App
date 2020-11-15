@@ -1,0 +1,11 @@
+.listCities {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.titleHomePage {
+  font-size: 60px;
+  margin: 0;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,17 @@
+.notify {
+  position: absolute;
+  right: 0;
+  top: 30px;
+  text-align: center;
+  width: 300px;
+  background-color: rgba(236, 110, 76, 0.8);
+  border-radius: 5px;
+}
+
+.notifyText {
+  color: #313131;
+  margin: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  font-weight: 700;
+}

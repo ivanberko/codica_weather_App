@@ -1,0 +1,71 @@
+.listCities {
+  color: #313131;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.listItem:not(:last-child) {
+  margin-right: 20px;
+}
+
+.listItem {
+  width: 150px;
+  border: 2px solid #0c4879;
+  background-color: rgba(20, 116, 195, 0.7);
+  border-radius: 15px;
+  text-decoration: none;
+  color: #000;
+}
+
+.listItemActive {
+  border: 1px solid #ec6e4c;
+  box-shadow: inset 0px 0px 4px 1px #ec6e4c;
+  color: #ec6e4c;
+  font-weight: 700;
+}
+
+.titleDetailsPage {
+  font-size: 60px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.titleItem {
+  font-size: 50px;
+  margin: 0;
+  color: #0c4879;
+  text-shadow: 1px -1px 20px #fff, 1px -1px 20px #fff, 1px -1px 20px #fff,
+    1px 1px 20px #fff;
+}
+
+.tempItem {
+  margin: 0;
+  font-size: 32px;
+}
+
+.boxTemp {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btnGoBack {
+  font-family: Arial, Helvetica, sans-serif;
+  transform: translateX(-370px);
+  border: 2px solid #ec6e4c;
+  background-color: #fff;
+  color: #ec6e4c;
+  border-radius: 15px;
+  padding: 4px 10px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s linear;
+  margin-bottom: 20px;
+}
+
+.btnGoBack:hover {
+  background-color: #ec6e4c;
+  color: #0c4879;
+}
